@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7e4ee" height="422.0" layoutX="179.0" layoutY="58.0" opacity="0.19" stroke="BLACK" strokeType="INSIDE" width="424.0" />
+        <Text layoutX="273.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Todo List" textAlignment="CENTER" wrappingWidth="236.13668823242188">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Text>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Text layoutX="297.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new todo" textAlignment="CENTER" wrappingWidth="188.9830722808838">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="315.0" layoutY="152.0" />
+      <Text layoutX="370.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" textAlignment="CENTER" wrappingWidth="40.662109375">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="332.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" textAlignment="CENTER" wrappingWidth="114.205078125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="315.0" layoutY="256.0" />
+      <Text layoutX="323.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Target Date" textAlignment="CENTER" wrappingWidth="135.205078125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="315.0" layoutY="353.0" />
+    </children>
+</Pane>
