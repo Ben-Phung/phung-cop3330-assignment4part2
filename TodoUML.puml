@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class TodoList {
+    +addItem
+    ~title
+    ~description
+    ~date
+    +edit
+    +markComplete
+    +delete
+    +save
+    +saveAll
+}
+
+
+@enduml
