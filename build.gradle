@@ -23,8 +23,8 @@ tasks.withType(JavaCompile) {
 }
 
 application {
-    mainModule = 'com.example.phungcop3330assignment4'
-    mainClass = 'com.example.phungcop3330assignment4.HelloApplication'
+    mainModule = 'com.example.phungcop3330assignment4part2'
+    mainClass = 'com.example.phungcop3330assignment4part2.HelloApplication'
 }
 
 javafx {

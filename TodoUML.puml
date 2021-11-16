@@ -9,9 +9,12 @@ class TodoList {
     ~date
     +edit
     +markComplete
-    +delete
-    +save
-    +saveAll
+    ~completedView
+    ~todoView
+    +deleteItem
+    ~todoView
+    ~completedView
+
 }
 
 
